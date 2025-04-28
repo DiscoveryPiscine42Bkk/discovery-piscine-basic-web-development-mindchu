@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -eq  0 ]; then
-	exit 1
+	echo "No arguments supplied"
 elif [ "$#" -eq 1 ]; then
 	echo "$1"
 elif [ "$#" -eq 2 ]; then
