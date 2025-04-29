@@ -5,6 +5,6 @@ if [ "$#" -eq  0 ]; then
 else
     for i in $*
     do
-        touch "ex""$i"
+        mkdir "ex""$i"
     done
 fi
