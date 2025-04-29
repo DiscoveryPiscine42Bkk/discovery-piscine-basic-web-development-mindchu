@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>background</title>
+        <link rel="stylesheet" href="background.css">
+    </head>
+
+    <body>
+        <button onclick="changecolor()">Click me!</button>
+        <script> 
+            function changecolor() {
+                var randomColor = Math.floor(Math.random()*16777215).toString(16);
+                document.body.style.backgroundColor = "#"+randomColor;
+            }
+        </script>
+    </body>
+</html>
