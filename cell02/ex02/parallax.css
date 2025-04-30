@@ -22,10 +22,10 @@ body {
     background-image: url(https://www.usatoday.com/gcdn/media/2020/09/11/USATODAY/usatsports/ghows_gallery-WL-822009996-7ffc2013.jpg?crop=1440,810,x0,y495&width=1440&height=720&format=pjpg&auto=webp);
 }
 .centertext {
-    top: 40%;
+    top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 30px;
     font-family: monospace;
