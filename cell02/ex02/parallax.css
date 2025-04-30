@@ -1,28 +1,32 @@
 body {
     margin: 0;
-}
-img {
-    width: 100%;
     height: 100vh;
-    display: flex;
+    perspective: 1px;
 }
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
+.container1,.container2,.container3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position:relative;
+    background-attachment: fixed;
+}
+.container1 {
+    background-image: url(https://i0.wp.com/cms.babbel.news/wp-content/uploads/2020/09/CM_MagazineHeader_FallVsAutumn.png?fit=1200%2C675&strip=none&ssl=1);
+}
+.container2 {
+    background: black;
+    min-height: 50vh;
+}
+.container3 {
+    background-image: url(https://www.usatoday.com/gcdn/media/2020/09/11/USATODAY/usatsports/ghows_gallery-WL-822009996-7ffc2013.jpg?crop=1440,810,x0,y495&width=1440&height=720&format=pjpg&auto=webp);
 }
 .centertext {
-    position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-.blackbox {
-    display:flex;
-    background-color: black;
-    width: 100%;
-    height: 100vh;
+    position: absolute;
+    transform: translate(-50%, 0);
     color: white;
-    justify-content: center;
-    align-items: center;
+    font-size: 30px;
+    font-family: monospace;
 }
