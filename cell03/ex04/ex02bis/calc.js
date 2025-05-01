@@ -29,12 +29,14 @@ $(document).ready(function() {
             case '/':
                 result = divide(first_num, second_num);
                 if (!isFinite(result)) {
+                    console.log(result);
                     return alert("It's over 9000!");
                 }
                 break;
-            default:
+            case '%':
                 result = modulo(first_num, second_num);
                 if (!isFinite(result)) {
+                    console.log(result);
                     return alert("It's over 9000!");
                 }
         }
