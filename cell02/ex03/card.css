@@ -1,0 +1,41 @@
+.profilepic {
+    width: 600px;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    border-spacing: 20px;
+    border: 1px solid black;
+}
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+.subname {
+    font-size: 20px;
+}
+.school {
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+}
