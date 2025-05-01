@@ -19,8 +19,8 @@ function clickevent() {
     }
     width_str = width_size.toString();
     height_str = height_size.toString();
-    balloon_width = width_str += "px";
-    balloon_height = height_str += "px";
+    balloon_width = width_str + "px";
+    balloon_height = height_str + "px";
     document.getElementById("balloon").style.width = balloon_width;
     document.getElementById("balloon").style.height = balloon_height;
 }
@@ -40,8 +40,8 @@ function outevent() {
     }
     width_str = width_size.toString();
     height_str = height_size.toString();
-    balloon_width = width_str += "px";
-    balloon_height = height_str += "px";
+    balloon_width = width_str + "px";
+    balloon_height = height_str + "px";
     document.getElementById("balloon").style.width = balloon_width;
     document.getElementById("balloon").style.height = balloon_height;
 }

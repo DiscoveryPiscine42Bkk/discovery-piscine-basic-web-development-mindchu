@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTC-8">
+        <title>calculator</title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="calc.js"></script>
+        <h1>Welcome to Calculator</h1>
+        <table>
+            <tr>
+                <td>First number:</td>
+                <td>Operator</td>
+                <td>Second number:</td>
+            </tr>
+            <tr>
+                <td><input type="text" id="first_number" name="fnum"></td>
+                <td>
+                    <select id="operator">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
+                    </select>
+                </td>
+                <td><input type="text" id="second_number" name="snum"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Try me!">
+    </body>
+</html>
